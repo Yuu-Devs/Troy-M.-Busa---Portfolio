@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Troy M. Busa - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of John Vincent Bardilas, a BS Computer Science student at Caraga State University.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Honk:MORF@15&family=Nabla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <p id="logo">Troy</p>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#skills">Skills/Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main" id="home">
+        <div class="hero-bg"></div>
+        <img src="busa.jpg" alt="Troy Busa" id="busa">
+        <h1 id="name">Troy M. Busa</h1>
+        <p id="description">A freshman at Caraga State University - Main Campus studying BS in Computer Science</p>
+    </main>
+    
+    <section id="project" class="section fade-in">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Personal Portfolio Website</h3>
+                <p>A responsive website showcasing my skills and projects, built with HTML, CSS, and JavaScript.</p>
+                <a href="#" target="_blank" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="section fade-in">
+        <h2>Skills & Hobbies</h2>
+        <div class="skills-hobbies">
+            <div class="skills">
+                <h3><i class="fas fa-code"></i> Skills</h3>
+                <ul>
+                    <li><i class="fab fa-python"></i> Programming: C, HTML/CSS</li>
+                    <li><i class="fas fa-globe"></i> Web Development: Responsive Design, Static Web</li>
+                    <li><i class="fas fa-tools"></i> Tools: Git, VS Code</li>
+                </ul>
+            </div>
+            <div class="hobbies">
+                <h3><i class="fas fa-gamepad"></i> Hobbies</h3>
+                <ul>
+                    <li><i class="fas fa-dice"></i> Gaming: MOBA Games and RPG Games like ML, RE Series.</li>
+                    <li><i class="fas fa-basketball-ball"></i> Sports: E-Sports, Basketball, Volleyball.</li>
+                    <li><i class="fas fa-music"></i> Music: R&B, Pop, OPM.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section fade-in">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaborations or inquiries!</p>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> Email: troy.busa@carsu.edu.ph</p>
+            <p><i class="fas fa-phone"></i> Phone: +63 915 004 1872</p>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Troy M. Busa. All rights reserved.</p>
+        <nav>
+            <a href="#home">Home</a> | 
+            <a href="#project">Projects</a> | 
+            <a href="#skills">Skills/Hobbies</a> | 
+            <a href="#contact">Contact</a>
+        </nav>
+    </footer>
+</body>
+</html>
